@@ -1,0 +1,1 @@
+# cubex-install-script
