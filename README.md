@@ -4,7 +4,8 @@ Shell script to install a [Cubex Masternode](https://discord.gg/QHjwumq) on a Li
 ***
 ## Installation:
 ```
-wget -q https://github.com/cubex-network/cubex-install-script/blob/master/cub_install.sh
+git clone https://github.com/cubex-network/cubex-install-script.git
+cd cubex-install-script
 bash cub_install.sh 
 ```
 ***
