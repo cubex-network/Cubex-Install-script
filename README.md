@@ -1,4 +1,4 @@
-# CUBEX Coin
+# CUBEX
 Shell script to install a [Cubex Masternode](https://discord.gg/QHjwumq) on a Linux server running Ubuntu 16.04. Use it on your own risk.
 
 ***
