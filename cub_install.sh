@@ -7,9 +7,9 @@ COIN_DAEMON='cubd'
 COIN_CLI='cub-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/cubex-network/cubex.git'
-COIN_TGZ='https://github.com/cubex-network/cubex/releases/download/v1.0.0.0/cub-1.0.0-linux-vps.tar.gz'
+COIN_TGZ='https://github.com/cubex-network/cubex/releases/download/v2.0.0.0/cubex-2.0.0-linux-vps.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='CUB'
+COIN_NAME='CUBEX'
 COIN_PORT=41231
 RPC_PORT=41232
 
