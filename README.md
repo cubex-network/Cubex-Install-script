@@ -3,10 +3,18 @@ Shell script to install a [Cubex Masternode](https://discord.gg/QHjwumq) on a Li
 
 ***
 ## Installation:
+###### For First Time Install:
 ```
 git clone https://github.com/cubex-network/cubex-install-script.git
 cd cubex-install-script
 bash cub_install.sh
+```
+***
+###### For Update Install:
+```
+git clone https://github.com/cubex-network/cubex-install-script.git
+cd cubex-install-script
+bash update_script-v2.0.0.0.sh
 ```
 ***
 
