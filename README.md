@@ -53,13 +53,13 @@ cub-cli getinfo
 cub-cli masternode status
 ```
 
-Also, if you want to check/start/stop **cub** , run one of the following commands as **root**:
+Also, if you want to check/start/stop **CUBEX** , run one of the following commands as **root**:
 
 ```
-systemctl status cub #To check the service is running.
-systemctl start cub #To start cub service.
-systemctl stop cub #To stop cub service.
-systemctl is-enabled cub #To check whether or not the cub service is enabled on boot or not.
+systemctl status CUBEX.service #To check the service is running.
+systemctl start CUBEX.service #To start cubex service.
+systemctl stop CUBEX.service #To stop cubex service.
+systemctl is-enabled CUBEX.service #To check whether or not the cubex service is enabled on boot or not.
 ```
 
 ***
