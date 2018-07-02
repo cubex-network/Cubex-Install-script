@@ -1,17 +1,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='cub.conf'
-CONFIGFOLDER='/root/.cub'
-COIN_DAEMON='cubd'
-COIN_CLI='cub-cli'
+CONFIG_FILE='travelpay.conf'
+CONFIGFOLDER='/root/.travelpay'
+COIN_DAEMON='travelpayd'
+COIN_CLI='travelpay-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/cubex-network/cubex.git'
-COIN_TGZ='https://github.com/cubex-network/cubex/releases/download/v2.0.0.0/cubex-2.0.0-linux-vps.tar.gz'
+COIN_REPO='https://github.com/TravelPay/TravelPay.git'
+COIN_TGZ='https://github.com/TravelPay/TravelPay/archive/v1.0.0.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='CUBEX'
-COIN_PORT=41231
-RPC_PORT=41232
+COIN_NAME='travelpay'
+COIN_PORT=35160
+RPC_PORT=35161
 
 NODEIP=$(curl -s4 icanhazip.com)
 
